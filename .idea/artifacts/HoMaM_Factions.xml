@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HoMaM-Factions">
+    <output-path>$PROJECT_DIR$/../../Dev Server/plugins</output-path>
+    <root id="archive" name="HoMaM-Factions.jar">
+      <element id="module-output" name="HoMaM-Factions" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+    </root>
+  </artifact>
+</component>

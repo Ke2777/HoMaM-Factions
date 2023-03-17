@@ -1,0 +1,27 @@
+name: HoMaM-Factions
+version: 1.0
+author: Point
+main: ru.point.homamfact.main
+description: Плагин для присоединения к фракции на сервере HoMaM 3 Server.
+
+commands:
+  faction:
+    description: Отобразить фракцию игрока
+    usage: /faction
+  joinfaction:
+    description: Присоединиться к фракции
+    usage: /joinfaction <фракция>
+  leavefaction:
+    description: Покинуть текущую фракцию
+    usage: /leavefaction
+
+# Доступные фракции
+factions:
+  - замок
+  - оплот
+  - башня
+  - инферно
+  - некрополис
+  - подземелье
+  - цитадель
+  - крепость
